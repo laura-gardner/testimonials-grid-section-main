@@ -1,0 +1,114 @@
+html {
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 1em;
+    border-radius: 0.5em;
+    padding: 2em;
+}
+
+img {
+    border-radius: 50%;
+    margin: 0 2em 0 0;
+    height: 2.5em;
+    border: 2.5px solid transparent;
+}
+
+h2, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.main-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    width: 100%;
+}
+
+.article-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-quote {
+    line-height: 1.5em;
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+
+.highlight {
+    font-size: 2em;
+    margin: 0.5em 0 0 0;
+    padding: 0;
+}
+
+.dark {
+    color: hsl(0, 0%, 81%);
+}
+
+.dark h3 {
+    color: hsla(0, 0%, 81%, 0.5);
+}
+
+.dark .main-quote {
+    color: hsla(0, 0%, 81%, 0.7);
+}
+
+.light {
+   color: hsl(217, 19%, 35%);
+   background-color: hsl(0, 0%, 100%);
+}
+
+.light h3 {
+    color: hsla(217, 30%, 14%, 0.5);
+}
+
+.light .main-quote {
+    color: hsla(217, 19%, 35%, 0.7);
+}
+
+.daniel {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+}
+
+.daniel img {
+    border: 2.5px solid hsla(0, 0%, 81%, 0.5);
+}
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.patrick img {
+    border: 2.5px solid hsl(263, 55%, 52%);
+}
