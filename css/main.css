@@ -112,3 +112,48 @@ h3 {
 .patrick img {
     border: 2.5px solid hsl(263, 55%, 52%);
 }
+
+/* Desktop layout */
+
+@media (min-width: 1440px) {
+    .main-area {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        padding: 10em 0;
+    }
+
+    .col-two-thirds {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .col-one-third {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        width: 30%;
+    }
+
+    .daniel, .patrick {
+        width: 55%;
+    }
+
+    .jonathan, .jeanette {
+        width: 25%;
+    }
+
+    .kira {
+        width: 40%;
+    }
+
+
+
+
+}
